@@ -1,0 +1,122 @@
+/* BODY */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../img/fondo-digimon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titulo-1{
+    color: white;
+}
+
+/* NAVBAR */
+#logo-nav{
+    width: 150px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: rgb(255, 165, 0);
+    font-size: large;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav li {
+    margin-right: 28px;
+}
+  
+/* LISTA DIGIMON */
+.table{
+    border: 0;
+    box-shadow: 0 0 35px #000000;
+    width: auto;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+}
+  
+th,td {
+    border: 1.5px solid black;
+}
+
+.table thead tr{
+    background-color: #525252;
+    color: white;
+}
+
+.table td {
+    font-size: large;
+    color: #000;
+    background-color: white;
+}
+
+.table img{
+    width: 80px;
+}
+
+.table td, .table th {
+    width: 33.33%;
+}
+
+/* SEARCH DIGIMON */
+.form-digi{
+    color: white;
+    font-size: large;
+}
+
+.form-digi label{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* CARD DE SEARCH */
+#img-card{
+    width: 320px;
+    height: 320px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BOTON DE SLIDE UP TOP */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 165, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #ff0000;
+}
+
+/* FONDO ABOUT */
+#body-about{
+    background-color: #F15A24;
+    background-image: none;
+    color: white;
+}
+
+#content-about{
+    color: white;
+}
