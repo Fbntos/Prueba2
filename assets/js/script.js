@@ -11,15 +11,18 @@ fetch (url)
 
 //FUNCION PARA LLENAR LA TABLA CON TODOS LOS DIGIMON
 var contenido = document.querySelector('#lista-content');
+var div = document.querySelector('#tabla-digi');
 function listarDigimon(datos){
     contenido.innerHTML = ''
     for (let temp of datos){
-        contenido.innerHTML += `<tr>
-        <td class="text-center">${temp.name}</td>
-        <td class="text-center"><img src="${temp.img}"></td>
-        <td class="text-center">${temp.level}</td>
+        contenido.innerHTML += 
+        `<tr>
+            <td class="text-center">${temp.name}</td>
+            <td class="text-center"><img src="${temp.img}"></td>
+            <td class="text-center">${temp.level}</td>
         </tr>`
     }
+    div.style.display = 'block';
 }
 
 //FUNCION DE BUSCAR UN DIGIMON EN ESPECIFICO 

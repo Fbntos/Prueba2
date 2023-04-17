@@ -80,6 +80,10 @@ th,td {
     font-weight: bold;
 }
 
+#tabla-digi{
+    display: none;
+}
+
 /* CARD DE SEARCH */
 #img-card{
     width: 320px;
