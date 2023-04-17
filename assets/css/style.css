@@ -124,3 +124,7 @@ th,td {
 #content-about{
     color: white;
 }
+
+.table-responsive {
+    overflow: auto;
+}
