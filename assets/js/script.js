@@ -25,8 +25,6 @@ function listarDigimon(datos){
     div.style.display = 'block';
 }
 
-
-
 //FUNCION DE BUSCAR UN DIGIMON EN ESPECIFICO 
 function searchDigimon(info){
     card.innerHTML = ''
