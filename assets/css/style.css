@@ -36,13 +36,17 @@ body {
 .navbar-nav li {
     margin-right: 28px;
 }
+
+.navbar .nav-link.active {
+    color: white;
+}
   
 /* LISTA DIGIMON */
 .table{
     border: 0;
-    box-shadow: 0 0 35px #000000;
+    box-shadow: 0px 0px 20px 0px #000000;
     width: auto;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     overflow: hidden;
 }
   
@@ -128,3 +132,10 @@ th,td {
 .table-responsive {
     overflow: auto;
 }
+
+.btn-warning {
+    background-color: rgb(255, 165, 0);
+    color: white;
+    box-shadow: 0px 0px 5px #000000;
+}
+
