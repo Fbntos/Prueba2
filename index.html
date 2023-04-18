@@ -12,7 +12,7 @@
     <!-- CDN FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FAVICON -->
-    <link rel="icon" href="../P_CONSOLIDACION/assets/img/Digimon-Logo2.png">
+    <link rel="icon" href="./assets/img/Digimon-Logo2.png">
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- CSS -->
@@ -21,7 +21,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg" id="nav-digi">
+    <nav class="navbar navbar-expand-lg " id="nav-digi">
         <div class="container-fluid">
             <a class="navbar-brand" href="https://digimon-api.vercel.app/">
                 <img id="logo-nav" class="mx-4" src="./assets/img/Digimon-Logo2.png"></img>
@@ -47,12 +47,14 @@
     </nav>
 
     <!-- CONTAINER TABLA -->
-    <div class="container pt-5 pb-5" id="main-container">
-        <div class=" row d-flex justify-content-center" id="main-container2">
-            <div class="h1 text-center"><strong><p id="titulo-1">DIGIMONES</p></strong></div>
-            <div class="pt-3">
-                <table class="table mx-auto">
-                    <thead>
+    <div class="container pt-5 pb-5 mb-2 mb-lg-0 justify-content-center" id="main-container">
+        <div class=" row d-flex justify-content-center mx-auto" id="main-container2">
+            <div class="h1 text-center col-12">
+                <strong><p id="titulo-1">DIGIMONES</p></strong>
+            </div>
+            <div class="col-12 pt-3 table-responsive"id="tabla-digi">
+                <table class="table mx-auto justify-content-center">
+                    <thead >
                       <tr class="h5">
                         <th scope="col" class="text-center">Nombre</th>
                         <th scope="col" class="text-center" >Imagen</th>
@@ -60,11 +62,7 @@
                       </tr>
                     </thead>
                     <tbody id="lista-content">
-                      <tr>
-                        <td>Agumon</td>
-                        <td class="text-center"><img src="https://digimon.shadowsmith.com/img/agumon.jpg"></td>
-                        <td>Rookie</td>
-                      </tr>
+                        <!-- CONTENIDO LLENADO EN JS CON LA API -->
                     </tbody>
                 </table>
             </div>
