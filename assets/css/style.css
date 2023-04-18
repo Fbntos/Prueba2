@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../img/fondo-digimon.png);
+    background-image: url(/assets/img/fondo-digimon.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
